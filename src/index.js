@@ -12,7 +12,7 @@ root.render(
       <Header />
       <Routes>
         <Route path="/" element={<Landing />} />
-        <Route path="/weather" element={<Container />} />\
+        <Route path="/weather" element={<Container />} />
       </Routes>
       <Footer />
     </HashRouter>
