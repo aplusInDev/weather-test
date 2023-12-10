@@ -12,8 +12,12 @@
 }
 .landing h3 {
     margin-top: 0;
-    padding-left: 250px;
     color: var(--secondary-color);
+}
+@media screen and (min-width: 768px) {
+    .landing h3 {
+        padding-left: 250px;
+    }
 }
 .description > .inner-description {
     padding: 2px 15px;
@@ -21,12 +25,6 @@
     font-size: 1rem;
     color: var(--main-color);
 }
-/* .inner-description > h2 {
-    color: var(--secondary-color);
-} */
-/* .inner-description b {
-    color: var(--secondary-color);
-} */
 .inner-description a {
     /* text-decoration: none; */
     color: var(--main-color);
@@ -67,4 +65,19 @@
 .repository > a {
     /* text-decoration: none; */
     color: var(--main-color);
+}
+@media screen and (max-width: 768px) {
+    .description > center {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-left: 10px;
+    }
+    .description h3 {
+        padding-left: 0;
+    }
+    .description > .inner-description {
+        padding: 0;
+    }
 }

@@ -36,3 +36,8 @@
 .inner-carousel > :nth-child(3) {
     background-image: url("/src/images/phone.jpeg");
 }
+@media screen and (max-width: 768px) {
+    .carousel {
+        height: 570px;
+    }
+}
