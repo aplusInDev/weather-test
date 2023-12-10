@@ -1,0 +1,48 @@
+.main-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+    /* background-color: var(--secondary-color); */
+    
+}
+.main-card > .temp {
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+.temp > h2 {
+    font-size: 2.5rem;
+}
+.temp > p {
+    align-self: flex-end;
+    font-weight: bold;
+    padding-left: 2px;
+}
+.main-card > .icon {
+    width: 60px;
+    height: 60px;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    padding-left: 100px;
+    text-align: end;
+    font-weight: bold;
+}
+
+.main-card > .wind {
+    height: 60px;
+    line-height: 20px;
+    background-image: url("/src/icons/wind_icon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 20px;
+    padding-left: 80px;
+    text-align: center;
+}
+.wind > h3 {
+    margin: 0;
+}
+.wind > p {
+    font-size: 1.5rem;
+}

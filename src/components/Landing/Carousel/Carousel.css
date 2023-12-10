@@ -1,0 +1,38 @@
+.carousel {
+    overflow: hidden;
+    cursor: grab;
+    background-color: inherit;
+    /* box-shadow: 0 0 10px 0 var(--shadow-color); */
+    border-radius: 2rem;
+    width: 90%;
+    aspect-ratio: 16/9;
+    /* margin-bottom: 100px; */
+}
+.inner-carousel {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.inner-carousel > .item {
+    min-height: 25rem;
+    min-width: 20rem;
+    padding: 40px 20px;
+    margin: 5px;
+    width: 100%;
+    border-radius: 2rem;
+    pointer-events: none;
+    background-color: var(--shadow-color);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.inner-carousel > :first-child {
+    background-image: url("/src/images/desktop.jpeg");
+}
+.inner-carousel > :nth-child(2) {
+    background-image: url("/src/images/tablet.jpeg");
+    background-size: cover;
+}
+.inner-carousel > :nth-child(3) {
+    background-image: url("/src/images/phone.jpeg");
+}

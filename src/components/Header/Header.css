@@ -1,0 +1,20 @@
+header {
+    /* background: var(--main-color); */
+    background: transparent;
+    box-shadow: 0 0 10px 0 var(--shadow-color);
+    filter: blur(.5px);
+    color: var(--main-color);
+    /* border-bottom: 1px solid var(--secondary-color); */
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+header > h1 {
+    padding-left: 30px;
+}
+header > h1 > a {
+    text-decoration: none;
+    color: var(--main-color);
+}

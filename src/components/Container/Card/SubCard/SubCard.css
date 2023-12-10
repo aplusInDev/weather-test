@@ -1,0 +1,35 @@
+.sub-card > .inner-card {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inner-card > h3 {
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding-left: 40px;
+}
+@media screen and (max-width: 768px) {
+    .inner-card > h3 {
+        padding-bottom: 10px;
+        margin-bottom: 0;
+        line-height: 30px;
+    }
+    
+}
+.inner-card > p {
+    text-align: center;
+    font-size: 1.5rem;
+    /* color: var(--main-font-color); */
+}
+.pressure > h3 {
+    background-image: url("/src/icons/pressure_icon.png");
+}
+.humidity > h3 {
+    background-image: url("/src/icons/humidity_icon.png");
+}

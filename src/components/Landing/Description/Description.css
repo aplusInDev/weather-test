@@ -1,0 +1,70 @@
+.landing > .description {
+    width: 90%;
+    padding-bottom: 30px;
+    background-color: var(--shadow-color);
+    box-shadow: 0 0 10px 0 var(--shadow-color);
+    border-radius: 2rem;
+    margin-top: 15px;
+}
+.landing h1 {
+    color: var(--main-color);
+    margin-bottom: 0;
+}
+.landing h3 {
+    margin-top: 0;
+    padding-left: 250px;
+    color: var(--secondary-color);
+}
+.description > .inner-description {
+    padding: 2px 15px;
+    line-height: 25px;
+    font-size: 1rem;
+    color: var(--main-color);
+}
+/* .inner-description > h2 {
+    color: var(--secondary-color);
+} */
+/* .inner-description b {
+    color: var(--secondary-color);
+} */
+.inner-description a {
+    /* text-decoration: none; */
+    color: var(--main-color);
+}
+.inner-description > h2 {
+    color: #000000;
+}
+.inner-description > .social-media {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+.social-media > li {
+    margin: 15px 10px;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    transform: translateY(-10px);
+}
+.social-media > li > a {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 5px 10px;
+    color: transparent;
+}
+.social-media .linkedin {
+    background-image: url("/src/icons/linkedin.png");
+}
+.social-media .github {
+    background-image: url("/src/icons/github.png");
+}
+.social-media .twitter {
+    background-image: url("/src/icons/twitter.png");
+}
+.repository > a {
+    /* text-decoration: none; */
+    color: var(--main-color);
+}

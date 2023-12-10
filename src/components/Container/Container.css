@@ -1,0 +1,11 @@
+.container {
+    max-width: 1000px;
+    aspect-ratio: 2/1;
+    margin: 30px auto;
+    padding: 30px;
+    padding-bottom: 90px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
