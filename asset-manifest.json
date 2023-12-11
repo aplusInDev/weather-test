@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/weather-test/static/css/main.47413a0f.css",
-    "main.js": "/weather-test/static/js/main.6b09e741.js",
+    "main.css": "/weather-test/static/css/main.3d14adb5.css",
+    "main.js": "/weather-test/static/js/main.b9460a81.js",
     "static/media/main-background.jpg": "/weather-test/static/media/main-background.b803210aedbdb9eadb60.jpg",
     "static/media/desktop.jpeg": "/weather-test/static/media/desktop.b1161e9e7c82f0400820.jpeg",
     "static/media/tablet.jpeg": "/weather-test/static/media/tablet.85036bd4d8aa81ce52de.jpeg",
@@ -9,11 +9,11 @@
     "static/media/twitter.png": "/weather-test/static/media/twitter.e58e4997ef85cbd7054c.png",
     "static/media/github.png": "/weather-test/static/media/github.f11021803f68852df283.png",
     "index.html": "/weather-test/index.html",
-    "main.47413a0f.css.map": "/weather-test/static/css/main.47413a0f.css.map",
-    "main.6b09e741.js.map": "/weather-test/static/js/main.6b09e741.js.map"
+    "main.3d14adb5.css.map": "/weather-test/static/css/main.3d14adb5.css.map",
+    "main.b9460a81.js.map": "/weather-test/static/js/main.b9460a81.js.map"
   },
   "entrypoints": [
-    "static/css/main.47413a0f.css",
-    "static/js/main.6b09e741.js"
+    "static/css/main.3d14adb5.css",
+    "static/js/main.b9460a81.js"
   ]
 }
