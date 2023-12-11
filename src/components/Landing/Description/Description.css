@@ -14,11 +14,6 @@
     margin-top: 0;
     color: var(--secondary-color);
 }
-@media screen and (min-width: 768px) {
-    .landing h3 {
-        padding-left: 250px;
-    }
-}
 .description > .inner-description {
     padding: 2px 15px;
     line-height: 25px;
@@ -67,6 +62,9 @@
     color: var(--main-color);
 }
 @media screen and (max-width: 768px) {
+    .landing > .description {
+        padding-left: 10px;
+    }
     .description > center {
         display: flex;
         flex-direction: column;

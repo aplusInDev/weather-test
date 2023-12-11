@@ -27,9 +27,6 @@
     .sub-card > .inner-card > p {
         margin-top: 0;
     }
-    /* .container {
-        margin: 5px;
-    } */
 }
 .status > h2 {
     grid-column: 1/-1;

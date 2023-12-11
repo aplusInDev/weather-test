@@ -1,12 +1,12 @@
 import { React } from "react";
 import "./Landing.css";
-import Carousel from "./Carousel/Carousel";
 import Description from "./Description/Description";
+import Preview from "./Preview/Preview";
 
 const Landing = () => {
   return (
     <div className="landing">
-      <Carousel />
+      <Preview />
       <Description />
     </div>
   );
