@@ -32,8 +32,8 @@ npm start
 
 ## Examples
 
-<img alt="desktop preview" src="/src/images/destop.jpeg")
+<img alt="desktop preview" src="/src/images/destop.jpeg" />
 
-![mobile preview]("/src/images/phone.jpeg")
+![mobile preview]("./src/images/mobile.jpeg")
 
-![tablet preview]("/src/images/tablet.jpeg")
+![tablet preview]("./src/images/tablet.jpeg")
