@@ -26,16 +26,14 @@ npm install
 
 ## Run Locally
 
-#### If you use ubuntu
-
 ```bash
 npm start
 ```
 
 ## Examples
 
-![desktop preview]("/src/images/desktop")
+<img alt="desktop preview" src="/src/images/destop.jpeg")
 
-![mobile preview]("/src/images/phone")
+![mobile preview]("/src/images/phone.jpeg")
 
-![tablet preview]("/src/images/tablet)
+![tablet preview]("/src/images/tablet.jpeg")
