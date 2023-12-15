@@ -32,8 +32,13 @@ npm start
 
 ## Examples
 
-<img alt="desktop preview" src="./src/images/desktop.jpeg" />
+- desktop screen
+  <img alt="desktop preview" src="./src/images/desktop.jpeg" />
+
+- phone screen
 
 <img alt="phone preview" src="./src/images/phone.jpeg" />
+
+- tablet screen
 
 <img alt="tablet preview" src="./src/images/tablet.jpeg" />
