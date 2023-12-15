@@ -33,6 +33,7 @@ npm start
 ## Examples
 
 - desktop screen
+
   <img alt="desktop preview" src="./src/images/desktop.jpeg" />
 
 - phone screen
