@@ -1,5 +1,5 @@
 import { React } from "react";
-import "./Landing.css";
+import "./Home.css";
 import Description from "./Description/Description";
 import Preview from "./Preview/Preview";
 

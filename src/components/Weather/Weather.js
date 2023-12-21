@@ -1,5 +1,5 @@
 import React from "react";
-import "./Container.css";
+import "./Weather.css";
 import Filter from "./Filter/Filter";
 import Card from "./Card/Card";
 import { useState } from "react";
